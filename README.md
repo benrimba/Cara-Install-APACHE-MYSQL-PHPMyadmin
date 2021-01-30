@@ -7,7 +7,23 @@
 #### Setting mod_rewrite Apache
 ###### ```sudo nano /etc/apache2/sites-available/000-default.conf```
 ###### Cari baris kode
- ```php DocumentRoot /var/www/html ```
+ ```php 
+  DocumentRoot /var/www/html 
+ ```
+###### Lalu tambahkan kode berikut di bawahnya
+```php
+<Directory "/var/www/html">
+    AllowOverride All
+</Directory>
+```
+###### Aktifkan mod_rewrite
+```php
+sudo a2enmod rewrite
+```
+###### Restart Apache
+```php
+sudo service apache2 restart 
+```
 ###### Setelah proses install Apache selesai, Anda perlu mengecek apakah instalasi berhasil atau tidak. Anda bisa mengeceknya dengan membuka IP server Anda seperti ini:
 ###### ```http://localhost/ ```
 #### Langkah 3 : Install MySQL v.8
