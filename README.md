@@ -6,7 +6,7 @@
 ###### ```sudo apt-get install apache2 ``` tunggu sampai selesai
 ###### Setelah proses install Apache selesai, Anda perlu mengecek apakah instalasi berhasil atau tidak. Anda bisa mengeceknya dengan membuka IP server Anda seperti ini:
 ###### ```http://localhost/ ```
-#### Langkah 3 : Install MySQL
+#### Langkah 3 : Install MySQL v.8
 ###### ```sudo apt-get install mysql-server```
 ###### ```sudo mysql_secure_installation```
 #### Merubah Password MySQL v.8
