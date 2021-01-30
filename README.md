@@ -9,11 +9,9 @@
 #### Langkah 3 : Install MySQL
 ###### ```sudo apt-get install mysql-server```
 ###### ```sudo mysql_secure_installation```
-#### Merubah Password MySQL
-###### Masuk Ke Mysql dengan Perintah ```sudo mysql`` 
+#### Merubah Password MySQL v.8
+###### Masuk Ke Mysql dengan Perintah ```sudo mysql```
 ###### mysql>```ALTER USER 'root'@'localhost' IDENTIFIED BY 'NewPassword';```
-###### silahkan setting password anda, syarat membuat password kombinasi simbol,huruf besar,huruf kecil,dan angka (Default)
-###### ```mysql -u root -p```
 #### Langkah 4 : Install PHP
 ###### ``` sudo apt-get install php php-mysql libapache2-mod-php php-cli php-cgi php-gd mysql-server mysql-client zip -y ```
 ###### setelah selesai install, untuk memastikan berhasil atau tidaknya kita masuk ke direktori installnnya terlebih dahulu
